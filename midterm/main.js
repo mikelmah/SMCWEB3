@@ -5,8 +5,6 @@ $(document).ready(function(){
         console.log(e);
     })
 
-    
-
     $('.js-modal-close').click(function(){
         $('.alert').addClass('show');
         $('.alert').alert();
