@@ -22,7 +22,7 @@
   <nav class="site-header sticky-top py-0">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
       <a class="py-2" href="index.html">
-
+    <!-- logo-->
         <svg xmlns="" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round"
           stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"
           focusable="false">
@@ -61,7 +61,7 @@
             <h1>Example headline.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
               gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="product.html" role="button">Check products</a></p>
+            <p><a class="btn btn-lg btn-info" href="product.html" role="button">Check products</a></p>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
             <h1>Another example headline.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
               gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Subscribe</a></p>
+            <p><a class="btn btn-lg btn-info" href="index.html" role="button">Subscribe</a></p>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
             <h1>One more for good measure.</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
               gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="team.html" role="button">Meet the team</a></p>
+            <p><a class="btn btn-lg btn-info" href="team.html" role="button">Meet the team</a></p>
           </div>
         </div>
       </div>
@@ -97,22 +97,42 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-<!-- modal -->
+  <!-- modal -->
   <div class="modal" tabindex="-1" role="dialog" id="myModal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
+                <h5 class="modal-title">Subscribe to our newsletter</h5>
                 <button type="button" class="close js-modal-close" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>Modal body text goes here.</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputName1">Name</label>
+                  <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter your name">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <select class="custom-select">
+                    <option selected>How often?</option>
+                    <option value="1">Daily</option>
+                    <option value="2">Weekly</option>
+                    <option value="3">Monthly</option>
+                  </select>
+                </div>
+              </form>  
+              
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="js-modal-close btn btn-info">Done</button>
+                
             </div>
         </div>
     </div>
