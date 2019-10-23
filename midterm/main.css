@@ -1,6 +1,9 @@
 .container {
     max-width: 960px;
   }
+  #TopAlert {
+    margin: 0;
+  }
   .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -15,9 +18,6 @@
       font-size: 3.5rem;
     }
   }
-  /*
-   * Custom translucent site header
-   */
   
   .site-header {
     background-color: rgba(50, 84, 129, 0.85);
@@ -69,10 +69,6 @@
   }
   
   
-  /*
-   * Extra utilities
-   */
-  
   .flex-equal > * {
     -ms-flex: 1;
     flex: 1;
@@ -85,7 +81,6 @@
   }
   
   .overflow-hidden { overflow: hidden; }
-  /* Carousel base class */
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -104,10 +99,9 @@
   min-width: 100%;
   height: 32rem;
 }
-
-
-
-
+.carousel {
+  margin-bottom: 50px;
+}
 
 
 /* RESPONSIVE CSS
