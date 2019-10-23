@@ -1,5 +1,5 @@
 .container {
-    max-width: 960px;
+    max-width: 1080px;
   }
   #TopAlert {
     margin: 0;
@@ -12,7 +12,7 @@
     -ms-user-select: none;
     user-select: none;
   }
-
+  
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
@@ -35,7 +35,7 @@
  
   /*
    * Dummy devices (replace them with your own or something else entirely!)
-   */
+   
   
   .product-device {
     position: absolute;
@@ -67,7 +67,7 @@
     left: 5%;
     background-color: #e5e5e5;
   }
-  
+  */
   
   .flex-equal > * {
     -ms-flex: 1;
