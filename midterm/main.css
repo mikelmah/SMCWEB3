@@ -4,6 +4,9 @@
   #TopAlert {
     margin: 0;
   }
+  .modal {
+    background-color: rgba(116, 162, 214, 0.50);
+  }
   .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -11,6 +14,17 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
+  .jumbotron {
+    background-image: url("https://media.daysoftheyear.com/20171223111242/walk-on-stilts-day.jpg");
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #shadow1 {
+    text-shadow: 1px 1px #636566;
   }
   
   @media (min-width: 768px) {
@@ -100,7 +114,7 @@
   height: 32rem;
 }
 .carousel {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 
