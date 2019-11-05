@@ -1,3 +1,4 @@
+/*section1 html style*/
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -24,7 +25,7 @@
       padding-bottom: 6rem;
     }
   }
-  
+  /*section2 jumb page*/
   .jumbotron p:last-child {
     margin-bottom: 0;
   }
@@ -45,3 +46,22 @@
   footer p {
     margin-bottom: .25rem;
   }
+  /*section3 the rest page*/
+  @keyframes myAnimation {
+    0% {
+        background-color: hsl(80, 100%, 50%);
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: hsl(-40, 100%, 50%);
+        
+    }
+
+    100% {
+        background-color: hsl(80, 100%, 50%);
+        left: calc(100% - 150px);
+        top: calc(100% - 150px);
+    }
+}
