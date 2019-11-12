@@ -43,14 +43,19 @@
             //image
             var img = new Image();   // Create new img element
 img.src = 'https://cdn.britannica.com/60/1760-050-008B6BAB/Italy.jpg';
+           ctx.drawImage(img, 100, 200,)
             </script>
     <script>
         
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
+// with javaScr
+//for (var i =50; i <= 650; i +=40) {
+  //  ctx.beginPath();
+//ctx.arc(95, i, 40, 0, 2 * Math.PI);
 
-
-
+//}
+//
 ctx.beginPath();
 ctx.arc(95, 50, 40, 0, 2 * Math.PI);
 ctx.stroke();
@@ -149,6 +154,7 @@ ctx.stroke();
 ctx.beginPath();
 ctx.arc(380, 650, 40, 0, 2 * Math.PI);
 ctx.stroke();
+
 
 
 
