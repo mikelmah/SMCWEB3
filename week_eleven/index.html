@@ -15,10 +15,13 @@
     <canvas width="800" height="700" id="myCanvas" style="border:1px solid #000000;">
             Your browser does not support the HTML5 canvas tag.
     </canvas>
+
     <script>
+        
             var c = document.getElementById("myCanvas");
             var ctx = c.getContext("2d");
             
+            //200,100,100,100
             var grd = ctx.createLinearGradient(200,100,100,100);
             grd.addColorStop(0,"red");
             grd.addColorStop(1,"white");
@@ -27,20 +30,22 @@
             ctx.fillRect(10,10,170,1000);
 
             //second column
-            var grd = ctx.createLinearGradient(700,100,100,100);
+            var grd = ctx.createLinearGradient(10,0,50,700);
             grd.addColorStop(0,"green");
             grd.addColorStop(1,"white");
             
             ctx.fillStyle = grd;
-            ctx.fillRect(300,10,700,800);
+            ctx.fillRect(300,10,150,800);
+            //text
+            ctx.font = "68px Calibri";
+            ctx.strokeText("ITALY", 145, 350,);
+
+  
             
             </script>
     <script>
         
-    
-       
- 
- var c = document.getElementById("myCanvas");
+var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
 
