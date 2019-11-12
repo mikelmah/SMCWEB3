@@ -11,21 +11,39 @@
     <title>week eleven</title>
   </head>
   <body>
-    
-    <canvas width="800" height="800" id="myCanvas" style="border:1px solid #000000;">
-    
+    <h1>CANVAS</h1>
+    <canvas width="800" height="700" id="myCanvas" style="border:1px solid #000000;">
+            Your browser does not support the HTML5 canvas tag.
     </canvas>
+    <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            
+            var grd = ctx.createLinearGradient(200,100,100,100);
+            grd.addColorStop(0,"red");
+            grd.addColorStop(1,"white");
+            
+            ctx.fillStyle = grd;
+            ctx.fillRect(10,10,170,1000);
 
+            //second column
+            var grd = ctx.createLinearGradient(700,100,100,100);
+            grd.addColorStop(0,"green");
+            grd.addColorStop(1,"white");
+            
+            ctx.fillStyle = grd;
+            ctx.fillRect(300,10,700,800);
+            
+            </script>
     <script>
         
-        
+    
+       
  
  var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
-var grd = ctx.createLinearGradient(0, 0, 200, 0);
-grd.addColorStop(0, "red");
-grd.addColorStop(1, "white");
+
 
 ctx.beginPath();
 ctx.arc(95, 50, 40, 0, 2 * Math.PI);
@@ -76,11 +94,62 @@ ctx.beginPath();
 ctx.arc(95, 650, 40, 0, 2 * Math.PI);
 ctx.stroke();
 
+//second circle col
+ctx.beginPath();
+ctx.arc(380, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 90, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 130, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 170, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 210, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 250, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 290, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 330, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 370, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 410, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 450, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 490, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 530, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 570, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 610, 40, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(380, 650, 40, 0, 2 * Math.PI);
+ctx.stroke();
 
 
 
     </script>
     
+    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
