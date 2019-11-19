@@ -3,7 +3,7 @@ var ctx = canvas.getContext("2d");
 
 var ballX = canvas.width/2;
 var ballY = canvas.height/2;
-var ballColor = 'rgb(200, 100, 155)';
+var ballColor = 'rgb(300, 200, 155)';
 var ballRadius = 20;
 
 var speedX = 5;
