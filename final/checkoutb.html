@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>Checkout example · Bootstrap</title>
+    <title>artMart · checkout</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -43,12 +43,42 @@
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
   </head>
+  <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo_gray_b.svg" width="auto" height="40" alt="art mart logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <!-- .active tabindex="-1"-->
+              <li class="nav-item">
+                <a class="nav-link" href="product.html"  >collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blog <span class="sr-only">(current)</span></a>  
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">gallery <span class="sr-only">(current)</span></a>  
+                </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact <span class="sr-only">(current)</span></a>  
+              </li>
+            </ul>
+            <!--cart here --> 
+            
+              <a class="btn btn-outline-light my-2 my-sm-0" href="checkoutb.html" role="button" >cart</a>
+          </div>
+        </nav>
+  </header>
   <body class="bg-light">
     <div class="container">
   <div class="py-5 text-center">
-    <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <img class="d-block mx-auto mb-4" src="images/logo_white.svg" alt="" width="auto" height="72">
     <h2>Checkout form</h2>
-    <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+    <p class="lead"></p>
   </div>
 
   <div class="row">
@@ -247,7 +277,7 @@
           </div>
         </div>
         <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+        <button class="btn btn-dark btn-lg btn-block" type="submit">Continue to checkout</button>
       </form>
     </div>
   </div>
