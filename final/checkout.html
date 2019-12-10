@@ -48,6 +48,7 @@
               <i class="fa fa-cc-mastercard" style="color:red;"></i>
               <i class="fa fa-cc-discover" style="color:orange;"></i>
             </div>
+            
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cardname" placeholder="John More Doe">
             <label for="ccnum">Credit card number</label>
@@ -70,13 +71,7 @@
         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
-        
-        
-        <!-- paypal start-->
-     <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
-     <script>paypal.Buttons().render('body');</script>
-     <!-- paypal end-->
-     
+        <input type="submit" value="Continue to checkout" class="btn">
     </form>
     </div>
   </div>
@@ -90,9 +85,18 @@
       <hr>
       <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
     </div>
-     
+     <div class="container">
+    
+        <!-- paypal start-->
+        <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+        <script>paypal.Buttons().render('body');</script>
+        <!-- paypal end-->
+    
   </div>
-  
+  </div>
+</footer>
+
+        
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
